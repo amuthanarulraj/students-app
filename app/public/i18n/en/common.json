@@ -1,0 +1,6 @@
+{
+    "appbar.title": "Students Registry",
+    "appbar.login.label": "Login",
+    "student.view.label": "View",
+    "student.delete.label": "Delete"
+}
