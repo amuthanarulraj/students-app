@@ -25,7 +25,7 @@ function App() {
           >
             <MenuIcon />
           </IconButton>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} data-testid="appbar-title">
             {t('appbar.title')}
           </Typography>
           <Button color="inherit">{t('appbar.login.label')}</Button>
