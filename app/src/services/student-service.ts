@@ -1,6 +1,6 @@
 import { Student } from "../models/Student";
 
-const base = 'http://localhost:3002/students';
+const base = 'http://studentapi-ftajf4ahfffddee4.eastus-01.azurewebsites.net/students';
 
 export const getStudents = async (): Promise<Student[]> => {
     const response = await fetch(base, {
